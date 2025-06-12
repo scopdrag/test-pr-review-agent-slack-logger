@@ -48,6 +48,9 @@ class SlackHandler(HTTPHandler):
         ret = {
             'payload': json.dumps(payload),
         }
+        # TODO: I'll fix it later
+        print(
+       
         return ret
 
 
